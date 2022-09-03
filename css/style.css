@@ -1,0 +1,418 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.black-container{
+    color: #F3F3F3;
+    background-color: black;
+    font-size: 10px;
+    font-weight: 400px;
+    line-height: 11.72px;
+    height: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 90px;
+    padding-right: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arg{
+    margin-left: 12px;
+}
+
+.hamb {
+    display: none;
+}
+
+header nav{
+    display: flex;
+    background-color: #F0A83E;
+    height: 62px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 48px;
+    font-weight: 700px;
+    font-size: 13px;
+    line-height: 15.23px;
+    color: #FFFFFF;
+}
+
+.menu img{
+    margin-left: 20px;
+}
+
+.bowl{
+    width: 100vw;
+    height: 409px;
+    margin-bottom: 25px;
+}
+
+.info-image{
+    position: absolute;
+    top: 180px;
+    right: 120px;
+    text-align: center;
+}
+
+.info-image .grande{
+    width: 365px;
+    height: 54px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35.16px;
+    text-align: center;
+    padding: 7px;
+}
+
+.info-image .pequeño{
+    text-align: center;
+    font-size: 16px;
+    margin: 16px;
+}
+
+.info-image .comederos{
+    background-color: #F0A83E;
+    width: 141px;
+    height: 49px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+}
+
+.intro{
+    text-align: center;
+}
+
+.big-paw{
+    width: 67px;
+    height: 71px;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 46.88px;
+}
+
+.intro p{
+    font-size: 15px;
+    color: #666666;
+    margin-top: 22px;
+}
+
+.productos{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    margin-left: 95px;
+    margin-right: 95px;
+}
+
+.item{
+    width: 265px;
+    height: 312px;
+    background-color: #FBFAF6;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.objeto{
+    color: #3C2313;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 17.58px;
+    margin-bottom: 2px;
+}
+
+.precio{
+    color: #F0A83E;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 17.58px;
+}
+
+.information{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.information h3{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29.3px;
+    color: #3C2313;
+    margin-bottom: 25px;
+}
+
+.information p{
+    width: 340px;
+    height: 40px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 400;
+    font-size: 9px;
+    background-color: #3C2313;
+    margin: 12px auto;
+    text-align: left;
+    padding: 15px;
+}
+
+.information span{
+    display: inline-block;
+    width: 110px;
+    height: 34px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    color: #FFFFFF;
+    padding: 8px;
+    margin-top: 35px;   
+    margin-bottom: 75px;
+}
+
+.resetear{
+    background-color: #8A8787;
+}
+
+.enviar{
+    background-color: #F0A83E;
+    margin-left: 5px;
+}
+
+.suscripcion{
+    background-color: #F0A83E;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.initial-part{
+    display: flex;
+}
+
+.suscripcion img{
+    width: 38.41px;
+    height: 25.28px;
+    margin-left: 30px;
+
+}
+
+.suscripcion h2{
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-top: 3px;
+    padding-left: 12px;
+}
+
+.second-part{
+    display: flex;
+    align-items: center;
+}
+
+.second-part .correo-aca{
+    display: inline-block;
+    width: 271px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 10.55px;
+    color: #A0A0A0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 8px;
+}
+
+.second-part .suscribirme{
+    display: inline-block;
+    width: 70px;
+    height: 34px;
+    border-radius: 15px;
+    background-color: #3C2313;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 12px;
+    color: #FFFFFF;
+    margin-right: 45px;
+    margin-left: 5px;
+}
+
+footer{
+    height: 284px;
+    background-color: #3C2313;
+    display: grid;
+    row-gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+    position: relative;
+}
+
+.part{
+    display: flex;
+}
+
+.part img{
+    width: 66px;
+    height: 66px;
+    border-radius: 50px;
+}
+
+.part h3{
+    font-size: 20px;
+    line-height: 23.44px;
+    color: #FFFFFF;
+}
+
+.part p{
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 11.72px;
+    color: #8A8787;
+}
+
+.part div{
+    margin-left: 25px;
+}
+
+.last-logo{
+    position: absolute;
+    right: 50px;
+    bottom: 130px;
+    width: 166px;
+    height: 23px;
+}
+
+.ultimo{
+    height: 20px;
+    background-color: #222222;
+    text-align: center;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 11.72px;
+    color: #FFFFFF;
+    padding-top: 4px;
+}
+
+.telefono .segundo-telefono {
+    display: none;
+}
+
+.telefono .cuarto-telefono {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .black-container {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .hamb {
+        display: block;
+    }
+
+    .info-image {
+        right: 0;
+        left: 0;
+    }
+
+    .grande {
+        margin: auto;
+    }
+
+    .pequeño {
+        padding-left: 190px;
+    }
+
+    .comederos {
+        position: relative;
+        left: 95px;
+    }
+
+    .productos {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    .item {
+        margin-top: 50px;
+    }
+
+    .information h3 {
+        font-size: 3rem;
+    }
+
+    .information span {
+        width: 40vw;
+        height: 37px;
+    }
+
+    .suscripcion {
+        display: block;
+        height: 83px;
+        padding-top: 3px;
+    }
+
+    .second-part {
+        justify-content: center;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 300px;
+        padding-top: 45px;
+        align-items: center;
+    }
+
+    .part {
+        width: 350px;
+    }
+
+    .telefono .primer-telefono {
+        display: none;
+    }
+
+    .telefono .segundo-telefono {
+        display: block;
+    }
+
+    .telefono .tercero-telefono {
+        display: none;
+    }
+
+    .telefono .cuarto-telefono {
+        display: block;
+    }
+
+    .part img {
+        margin-left: 80px;
+    }
+
+    footer p {
+        font-size: 1.5rem;
+    }
+
+    .last-logo {
+        position: relative;
+        bottom: 297px;
+        left: 0px;
+    }
+}
